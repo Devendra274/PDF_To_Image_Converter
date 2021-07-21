@@ -6,7 +6,7 @@ import constants as Const
 import get_bucket_connection as get_conn
 
 
-def set_image_dpi(filename, resolution):
+def __set_image_dpi(filename, resolution):
     print("For RESOLUTIONS:", resolution)
 
     """ GCS Storage Object """

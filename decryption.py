@@ -45,7 +45,7 @@ def __decrypt(filepath):
     updated_filepath = os.path.join(Const.FILE_LOCATION, updated_filename)
 
     """
-        Solving EOF not Found Exception -> Remove '\n' after spotting % % E0F in decrypted PDF File
+        Solving EOF not Found Exception -> Remove '\n' after spotting %%E0F in decrypted PDF File
     """
     with open(new_filepath, 'rb') as f:
         read_data = f.read()

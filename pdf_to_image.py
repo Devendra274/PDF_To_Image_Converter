@@ -39,5 +39,5 @@ def __pdf_to_image(filename):
         except Exception as e:
             print(f"Exception while PDF to Image Conversion: {e}")
 
-    print("4) List of Original Resolution of Images in tmp: ", os.listdir(Const.File_LOCATION))
+    print("4) List of Original Resolution of Images in tmp: ", os.listdir(Const.FILE_LOCATION))
     print("PDF to Image Complete")
